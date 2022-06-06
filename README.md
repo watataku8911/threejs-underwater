@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# threejs-underwater
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<img width="1440" alt="スクリーンショット 2022-06-06 15 21 19" src="https://user-images.githubusercontent.com/39507718/172107133-587e1055-bcd8-4ae8-b7c9-1a7506cbb551.png">
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
