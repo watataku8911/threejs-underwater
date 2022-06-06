@@ -45,7 +45,7 @@ export const init = (domElement) => {
 
   const groundGeometry = new THREE.PlaneGeometry(550, 550, 64, 64);
   const groundMaterial = new THREE.MeshLambertMaterial({
-    map: new THREE.TextureLoader().load("/map1.jpg"),
+    map: new THREE.TextureLoader().load("./map1.jpg"),
   });
   const groundMesh = new THREE.Mesh(groundGeometry, groundMaterial);
   groundMesh.rotation.x = Math.PI / -2;
