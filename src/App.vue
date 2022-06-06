@@ -11,13 +11,13 @@ onMounted(() => {
     setTimeout(() => {
       isLoading.value = false;
       init(myCanvas.value);
-    }, 1000);
+    }, 2000);
   };
 });
 </script>
 
 <template>
-  <loading text="threejs-underwater" v-show="isLoading" />
+  <Loading text="threejs-underwater" v-show="isLoading" />
   <canvas ref="myCanvas" v-show="!isLoading"></canvas>
 </template>
 
